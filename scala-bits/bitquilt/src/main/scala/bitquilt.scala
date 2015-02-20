@@ -10,8 +10,8 @@ object bitquilt extends SimpleSwingApplication {
   def top = new MainFrame {
     title = "bit quilt" 
     contents = new Panel { 
-      val xDim = 256 
-      val yDim = 512 
+      val xDim = 256
+      val yDim = 256
       preferredSize = new Dimension(xDim, yDim)
       val quilt = 
         (1 to xDim).toVector map (x =>
